@@ -8,19 +8,19 @@ import retrofit2.http.*
 
 interface GHInterface {
     @GET("/search/users")
-    @Headers("Authorization: token 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")
+    @Headers("Authorization: token YOUR_PRESONAL_ACCESS_TOKEN")
     fun getUsers(@Query("q") q: String) : Call<Response>
 
     @GET("/users/{username}")
-    @Headers("Authorization: token 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")
+    @Headers("Authorization: token YOUR_PRESONAL_ACCESS_TOKEN")
     fun getDetail(@Path("username") username: String) : Call<ResponseDetail>
 
     @GET("/users/{username}/following")
-    @Headers("Authorization: token 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")
+    @Headers("Authorization: token YOUR_PRESONAL_ACCESS_TOKEN")
     fun getFollowing(@Path("username") username: String) : Call<ArrayList<User>>
 
     @GET("/users/{username}/followers")
-    @Headers("Authorization: token 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")
+    @Headers("Authorization: token YOUR_PRESONAL_ACCESS_TOKEN")
     fun getFollowers(@Path("username")username: String): Call<ArrayList<User>>
 
 }
