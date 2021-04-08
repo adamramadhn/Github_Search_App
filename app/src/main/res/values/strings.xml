@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Github Search</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="hint">Input Username</string>
+    <string name="com_tv">Company:</string>
+    <string name="user_tv">Username:</string>
+    <string name="loc_tv">Location:</string>
+    <string name="app_detail">Detail User</string>
+    <string name="er_msg">There is an error! check your connectivity!</string>
+    <string name="er_msg2">User Not Found!</string>
+    <string name="back">Back Button</string>
+    <string name="setting">Setting</string>
+    <string name="image">Image View</string>
+    <string name="favorite">Favorite</string>
+    <string name="repos">Repository</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="repeat_Msg">Check out some new Repository!</string>
+    <string name="setAlarm">9:00</string>
+    <string name="RepeatingAlarm">Repeating Alarm</string>
+
+    <!-- Sync Preferences -->
+    <string name="reminder">Remind your activity</string>
+    <string name="status_switch">OFF / ON</string>
+    <string name="langBtn">setting language</string>
+    <!-- -->
+    <string name="cancel_alarm">Batalkan Alarm</string>
+    <string name="set_repeat">Repeating alarm set up</string>
+    <string name="cancel_repeat">Repeating alarm dibatalkan</string>
+    <string name="search_button">Search Button</string>
+    <string name="errMsg3">Check your connectivity then refresh page</string>
+</resources>
