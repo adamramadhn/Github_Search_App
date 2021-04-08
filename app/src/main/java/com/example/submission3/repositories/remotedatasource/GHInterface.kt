@@ -8,19 +8,19 @@ import retrofit2.http.*
 
 interface GHInterface {
     @GET("/search/users")
-    @Headers("Authorization: token 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")
+    @Headers("Authorization: token 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")
     fun getUsers(@Query("q") q: String) : Call<Response>
 
     @GET("/users/{username}")
-    @Headers("Authorization: token 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")
+    @Headers("Authorization: token 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")
     fun getDetail(@Path("username") username: String) : Call<ResponseDetail>
 
     @GET("/users/{username}/following")
-    @Headers("Authorization: token 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")
+    @Headers("Authorization: token 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")
     fun getFollowing(@Path("username") username: String) : Call<ArrayList<User>>
 
     @GET("/users/{username}/followers")
-    @Headers("Authorization: token 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")
+    @Headers("Authorization: token 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")
     fun getFollowers(@Path("username")username: String): Call<ArrayList<User>>
 
 }
